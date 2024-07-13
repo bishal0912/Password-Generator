@@ -1,0 +1,47 @@
+.body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  height: 250px;
+  width: 600px;
+  background-color: rgb(17, 17, 54);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  margin-top: 30px;
+}
+
+.main-container h1 {
+  color: orange;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.password-field {
+  height: 30px;
+  width: 380px;
+  border: none;
+  border-radius: 2px;
+  padding-left: 5px;
+  font-size: 16px;
+  color: rgb(255, 0, 0);
+}
+
+.copy {
+  height: 33px;
+  width: 55px;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  border-radius: 2px;
+  margin-left: 5px;
+}
+
+.settings {
+  margin-top: 20px;
+}
